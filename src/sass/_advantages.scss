@@ -1,0 +1,19 @@
+.advantages {
+    background-color: $background-pink;
+
+    &__h2 {
+    display: none;   
+    }
+    &__h3 {
+        font-size:36px;
+        font-weight: 400;
+        color: $dark-pink;
+
+    }
+
+    &__p {
+    font-size: 12px;    
+    font-weight: 700;
+     color:black;
+    }
+}
