@@ -1,0 +1,27 @@
+.section {
+  &--pink {
+    background: #ffb8ca;
+  }
+}
+.container {
+  padding-top: 27px;
+  padding-left: 20px;
+}
+.hero__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.15;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+  max-width: 218px;
+  margin-top: 127px;
+  &--big-red {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 96.5%;
+    text-transform: uppercase;
+    color: #d41443;
+  }
+}
