@@ -1,6 +1,25 @@
 
+.about {
+background-color: $background-pink;
 
-about__h1 {
-    color: aqua;
-    background-color: yellowgreen;
+&__label {
+font-size: 18px;
+text-transform: uppercase; 
+color: $footer-pink;
+
+}
+
+&__h2 {
+    font-size: 34px;
+    color: $dark-pink;
+    text-transform: uppercase; 
+}
+
+&__p1 {
+font-weight: 500;    
+}
+
+&__p2 {
+   color: $grey; 
+}
 }
