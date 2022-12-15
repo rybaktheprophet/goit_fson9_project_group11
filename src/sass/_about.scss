@@ -22,4 +22,15 @@ font-weight: 500;
 &__p2 {
    color: $grey; 
 }
+
+&__button {
+background-color: white;
+color: $dark-pink;
+font-size: 14px;
+font-weight:700;
+width: 176px;
+height: 44px;
+border-radius: 22px;
+border: none;
+}
 }
