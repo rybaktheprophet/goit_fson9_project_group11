@@ -1,16 +1,63 @@
 <section class="section section--pink">
-  <div class="container">
+  <div class="container container--pink-header">
     <div class="hero">
-      <h1 class="hero__title">
-        ice cream made with <span class="hero__title--big-red">passion</span>
-      </h1>
       <div class="hero__nav">
+        <h1 class="hero__title">
+          ice cream made with <span class="hero__title--big-red">passion</span>
+        </h1>
         <a href="#" class="hero__link" target="_self">Products</a>
         <a href="#" class="hero__link hero__link--white" target="_self">How it’s made?</a>
+        <!-- <button class="hero__button" type="button">Products</button>
+        <button class="hero__button hero__button--white" type="button">How it’s made?</button> -->
       </div>
-      <button class="hero__button" type="button">Products</button>
-      <button class="hero__button hero__button--white" type="button">How it’s made?</button>
-      <img class="hero__img" src="" alt="" />
+      <div class="hero__footer">
+        <img
+          class="hero__img"
+          src="./images/Hero/hero-milk_tablet@1x.jpg"
+          alt="Bottle of milk"
+          srcset="
+            ./images/Hero/hero-milk_tablet@1x.jpg  124w,
+            ./images/Hero/hero-milk_tablet@2x.jpg  248w,
+            ./images/Hero/hero-milk_desktop@1x.jpg 188w,
+            ./images/Hero/hero-milk_desktop@2x.jpg 376w
+          "
+          sizes="(min-width: 1200px) 188px, (min-width: 768px) 124px"
+        />
+        <p class="hero__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et
+        </p>
+      </div>
+    </div>
+    <div class="hero-foto">
+      <img
+        class="hero-foto__img"
+        src="./images/Hero/hero-icecream_mobile@1x.jpg"
+        alt="Icecream photo"
+        srcset="
+          ./images/Hero/hero-icecream_mobile@1x.jpg  171w,
+          ./images/Hero/hero-icecream_mobile@2x.jpg  342w,
+          ./images/Hero/hero-icecream_tablet@1x.jpg  143w,
+          ./images/Hero/hero-icecream_tablet@2x.jpg  286w,
+          ./images/Hero/hero-icecream_desktop@1x.jpg 236w,
+          ./images/Hero/hero-icecream_desktop@2x.jpg 472w
+        "
+        sizes="(min-width: 1200px) 236px, (min-width: 768px) 143px, (min-width: 480px) 171px"
+      />
+      <img
+        class="hero-foto__img hero-foto__img--background"
+        src="./images/Hero/hero-ellipse_mobile@1x.jpg"
+        alt="Circle in the background"
+        srcset="
+          ./images/Hero/hero-ellipse_mobile@1x.jpg   284w,
+          ./images/Hero/hero-ellipse_mobile@2x.jpg   568w,
+          ./images/Hero/hero-ellipse_tablet@1x.jpg   324w,
+          ./images/Hero/hero-ellipse_tablet@2x.jpg   648w,
+          ./images/Hero/hero-ellipse_desktop@1x.jpg  538w,
+          ./images/Hero/hero-ellipse_desktop@2x.jpg 1076w
+        "
+        sizes="(min-width: 1200px) 538px, (min-width: 768px) 324px, (min-width: 480px) 284px"
+      />
     </div>
   </div>
 </section>
