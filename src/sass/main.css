@@ -8,5 +8,46 @@ body {
 }
 
 .header__container {
+  width: 100vw;
   background-color: #ffb8ca;
+  padding-left: 46px;
+  padding-right: 115px;
+  padding-top: 37px;
+  padding-bottom: 0;
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+}
+
+.header__button {
+  width: 159px;
+  height: 44px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 22px;
+  color: rgb(212, 20, 67);
+  font-weight: 700;
+  font: size 16px;
+  line-height: 1.301;
+  border-style: none;
+  margin-left: 110px;
+}
+
+.header__navigation-list {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font: size 16px;
+  line-height: 1.301;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  -moz-column-gap: 35px;
+       column-gap: 35px;
+}
+
+.header__nav-container {
+  margin: left 50px;
+}
+
+.header__logo-image {
+  margin-right: 110px;
 }/*# sourceMappingURL=main.css.map */
