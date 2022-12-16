@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/*
+ * Główny plik dla stylów.
+ * Wszystkie partials podłączamy tutaj.
+ */
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.haeder-container {
+  background-color: #ffb8ca;
+}/*# sourceMappingURL=main.css.map */
