@@ -1,0 +1,46 @@
+
+.about {
+background-color: $background-pink;
+margin: 0 auto;
+
+&__label {
+font-size: 18px;
+text-transform: uppercase; 
+color: $footer-pink;
+margin: 0 auto;
+
+}
+
+&__h2 {
+    font-size: 34px;
+    color: $dark-pink;
+    text-transform: uppercase; 
+    text-align: center;
+}
+
+&__p1 {
+font-size: 12px;
+font-weight: 500;    
+max-width: 220px;
+margin: 0 auto;
+}
+
+&__p2 {
+font-size: 12px;
+color: $grey;
+max-width: 220px; 
+margin: 0 auto;
+}
+
+&__button {
+background-color: white;
+color: $dark-pink;
+font-size: 14px;
+font-weight:700;
+width: 176px;
+height: 44px;
+border-radius: 22px;
+border: none;
+margin: 0 auto;
+}
+}
