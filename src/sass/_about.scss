@@ -1,15 +1,22 @@
 
 .about {
 background-color: $background-pink;
+display: flex;
+flex-direction: column;
+background-image: url("../images/About/milk_background_mobile@1x.png");
+background-size: 320px;
+background-repeat: no-repeat;
+background-position: 52% 92%;
 
+// top 120px right 130px, top 270px left 130px, center, 100px 60px,
+//     center;
 
-&__label {
-font-family: 'Titan One';
-font-style: normal;
-font-size: 18px;
-text-transform: uppercase; 
-color: $footer-pink;
+&__h2-container {
 margin: 0 auto;
+ position: relative;
+margin-top: 125px;
+margin-bottom: 26px;
+
 
 }
 
@@ -18,36 +25,75 @@ margin: 0 auto;
     font-style: normal;
     font-weight: 400;
     font-size: 34px;
+    line-height: 39px;
     color: $dark-pink;
     text-transform: uppercase; 
-    // text-align: center;
-    margin: 0;
-padding: 0;
+    text-align: center;
+    max-width: 200px;
+    
+   
 }
+
+&__label {
+font-family: 'Titan One';
+font-style: normal;
+font-size: 18px;
+line-height: 21px;
+text-transform: uppercase; 
+color: $footer-pink;
+margin: 0;
+position: absolute;
+top: 50;
+
+
+}
+
 
 &__p1 {
 font-size: 12px;
+line-height: 19px;
 font-weight: 500;    
 max-width: 220px;
-display: block;
+margin: 0 auto;
+margin-top: 26px;
+margin-bottom: 26px;
 
 }
 
 &__p2 {
 font-size: 12px;
+line-height: 19px;
 color: $grey;
 max-width: 220px; 
+margin: 0 auto;
+margin-top: 10px;
+margin-bottom: 26px;
+
 }
 
 &__button {
 background-color: white;
 color: $dark-pink;
 font-size: 14px;
-font-weight:700;
+font-weight: 700;
 width: 176px;
 height: 44px;
 border-radius: 22px;
 border: none;
 margin: 0 auto;
+}
+
+&__btn-icon {
+    fill: $dark-pink;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+&__cow-picture {
+margin: 0px auto;    
+}
+
+&__cow-img {
+margin: 20px;
 }
 }
