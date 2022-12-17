@@ -101,9 +101,11 @@
     justify-content: space-between;
     padding-top: 7px;
     padding-bottom: 0;
+    padding-left: 34px;
+    padding-right: 34px;
   }
   .hero {
-    padding-bottom: 45px;
+    padding-bottom: 28px;
   }
   .hero__title {
     font-size: 22px;
@@ -149,16 +151,17 @@
     position: relative;
   }
   .hero-foto__img {
-    top: -18px;
-    right: -39px;
+    top: -35px;
+    right: -110px;
   }
   .hero-foto__img--background {
-    top: -48px;
-    right: -145px;
+    top: -68px;
+    right: -216px;
   }
   .hero-aside {
     display: flex;
     flex-direction: column;
+    z-index: 1;
   }
   .hero-aside__text--second {
     margin-bottom: auto;
