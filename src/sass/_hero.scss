@@ -4,15 +4,22 @@
   }
 }
 .container {
-  padding-top: 127px;
-  padding-left: 20px;
   box-sizing: border-box;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 0 auto;
+  padding: 0 20px;
+  &--pink-header {
+    padding-top: 137px;
+    padding-bottom: 160px;
+  }
+}
+.hero__nav {
+  position: relative;
+  z-index: 2;
 }
 .hero__title {
-  font-family: Titan One;
+  font-family: $font;
   font-weight: 400;
   font-size: 26px;
   line-height: 1.15;
@@ -21,7 +28,7 @@
   color: $white;
   max-width: 218px;
   margin-top: 0;
-  margin-bottom: 27px;
+  margin-bottom: 19px;
   &--big-red {
     font-weight: 400;
     font-size: 48px;
@@ -47,7 +54,7 @@
   background: $white;
   &:hover,
   &:focus {
-    background: #ecebeb;
+    background: $link-hover;
   }
 }
 .hero__button {
@@ -67,6 +74,43 @@
   background: $white;
   &:hover,
   &:focus {
-    background: #ecebeb;
+    background: $link-hover;
+  }
+}
+.hero__footer {
+  display: none;
+}
+.hero-foto__img {
+  display: block;
+  position: absolute;
+  right: 32px;
+  top: 40px;
+  z-index: 1;
+}
+.hero-foto__img--background {
+  top: 27px;
+  right: 0;
+  z-index: 0;
+}
+@media screen and (min-width: $tablet) {
+  .container--pink-header {
+    padding-top: 7px;
+    padding-bottom: 45px;
+  }
+  .hero__footer {
+    display: flex;
+    align-items: flex-end;
+    padding-top: 28px;
+  }
+  .hero__text {
+    max-width: 114px;
+    color: $white;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 1.5;
+  }
+  .test {
+    color: $white;
   }
 }
