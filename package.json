@@ -3,10 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://MarioRosiak.github.io/Products_MariuszR",
+  "homepage": "https://goitacademy.github.io/goit_fson9_project_group11",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /Productst_MariuszR/"
+    "build": "parcel build src/*.html --public-url /goit_fson9_project_group11/"
   },
   "repository": {
     "type": "git",
