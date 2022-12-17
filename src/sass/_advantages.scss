@@ -1,23 +1,37 @@
 .advantages {
     background-color: $background-pink;
+    padding: 20px;
 
     &__h2 {
     display: none;   
     }
     &__h3 {
+        font-family: $font;
         font-size:36px;
         font-weight: 400;
         color: $dark-pink;
+        margin: 0;
 
-
+        
     }
 
 
 
     &__p {
+    font-family: 'DM Sans', sans-serif;
     font-size: 12px;    
     font-weight: 700;
      color:black;
+     max-width: 230px;
+
+     &::after {
+        content: " <- test of pseudo-element";
+        color: green;
     }
 }
 
+// .advantages__grid-item::after {
+// content: '';
+// background-image: url('../images\Advantages\icon1@1x.png');
+// }
+ }
