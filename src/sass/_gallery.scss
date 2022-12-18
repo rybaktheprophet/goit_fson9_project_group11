@@ -2,4 +2,19 @@
     background: linear-gradient(0deg, $white 50%, $background-pink 50%);
     display: flex;
     justify-content: center;
+
+    
 }
+
+@media screen and( min-width: $min-width){
+    .gallery {
+        background: linear-gradient(0deg, $white 61%, $background-pink 61%);
+    }
+}
+
+@media screen and (min-width: $tablet){
+    .gallery {
+        background: linear-gradient(0deg, $white 61%, $background-pink 61%);
+    }
+}
+
