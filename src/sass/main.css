@@ -53,6 +53,10 @@ body {
   margin-right: 110px;
 }
 
+.header__icon-mobile-menu {
+  stroke: rgb(212, 20, 67);
+}
+
 .section--pink {
   background: #ffb8ca;
 }
