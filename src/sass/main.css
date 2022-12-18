@@ -9,15 +9,22 @@ body {
 
 .header__container {
   width: 100vw;
-  height: 61px;
   background-color: #ffb8ca;
   padding-left: 46px;
   padding-right: 115px;
-  padding-top: 37px;
+  padding-top: 6px;
   padding-bottom: 0;
   display: flex;
   align-items: center;
   align-content: space-between;
+  justify-content: space-between;
+  position: relative;
+  z-index: 200;
+}
+@media screen and (min-width: 1200px) {
+  .header__container {
+    padding-top: 37px;
+  }
 }
 
 .header__button {
@@ -30,7 +37,11 @@ body {
   font-size: 16px;
   line-height: 1.301;
   border-style: none;
-  margin-left: 110px;
+}
+@media screen and (max-width: 767px) {
+  .header__button {
+    display: none;
+  }
 }
 
 .header__navigation-list {
@@ -43,18 +54,57 @@ body {
   flex-wrap: nowrap;
   -moz-column-gap: 35px;
        column-gap: 35px;
+  text-align: center;
+}
+@media screen and (max-width: 1199px) {
+  .header__navigation-list {
+    display: none;
+  }
 }
 
 .header__nav-container {
   margin: left 50px;
 }
 
-.header__logo-image {
-  margin-right: 110px;
-}
-
 .header__icon-mobile-menu {
   stroke: rgb(212, 20, 67);
+}
+
+.header__logo-container {
+  padding-top: 6px;
+  width: 199px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+@media screen and (min-width: 1200px) {
+  .header__logo-container {
+    margin-right: 110px;
+  }
+}
+
+.header__button-mobile-menu {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .header__button-mobile-menu {
+    display: none;
+  }
+}
+
+.header__logo-text {
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.145;
+  color: #d41443;
+  text-transform: uppercase;
 }
 
 .section--pink {
