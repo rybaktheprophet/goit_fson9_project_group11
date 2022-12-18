@@ -4,18 +4,22 @@ width: 100vw;
 // height: 56px;
 background-color: $pink;
 padding-left: 20px;
-padding-right: 115px;
+padding-right: 101px;
 padding-top: 6px;
 padding-bottom: 0;
 display: flex;
+// column-gap: 10px;
 align-items: center;
 align-content: space-between;
-justify-content: space-between;
+
 position: relative;
 z-index: 200;
-@media  screen and (min-width:1200px) {
+@media  screen and (min-width:768px) {
   // margin-right: 110px;
   padding-top: 37px;
+  padding-left: 34px;
+  padding-right: 34;
+  position: relative;
 }
 
 }
@@ -33,6 +37,12 @@ border-style: none;
 
 @media screen and (max-width:767px) {
   display: none;
+  
+}
+@media screen and (min-width:768px) {
+ position: absolute; 
+ top:38px;
+ right:34px;
   
 }
 
@@ -65,12 +75,14 @@ margin: left 50px;
 }
 
 .header__logo-container{
-padding-top: 6px;
+
 width:199px;
 height: 50px;
 display:flex;
+flex-direction: row;
 align-items: center;
 justify-content: space-between;
+
 position: relative;
 @media  screen and (min-width:1200px) {
   margin-right: 110px;
@@ -84,6 +96,11 @@ position: relative;
   top:15px;
   right: 20px;
   cursor: pointer;
+  @media screen and (min-width:768px) {
+    position: absolute;
+    top:52px;
+    right: 224px;
+  }
   @media screen and (min-width:1200px) {
     display: none;
   }
