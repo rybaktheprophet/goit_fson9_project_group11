@@ -10,7 +10,7 @@ body {
 .header__container {
   width: 100vw;
   background-color: #ffb8ca;
-  padding-left: 46px;
+  padding-left: 20px;
   padding-right: 115px;
   padding-top: 6px;
   padding-bottom: 0;
@@ -91,6 +91,7 @@ body {
   position: absolute;
   top: 15px;
   right: 20px;
+  cursor: pointer;
 }
 @media screen and (min-width: 1200px) {
   .header__button-mobile-menu {

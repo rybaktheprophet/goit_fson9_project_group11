@@ -3,7 +3,7 @@
 width: 100vw;
 // height: 56px;
 background-color: $pink;
-padding-left: 46px;
+padding-left: 20px;
 padding-right: 115px;
 padding-top: 6px;
 padding-bottom: 0;
@@ -83,6 +83,7 @@ position: relative;
   position: absolute;
   top:15px;
   right: 20px;
+  cursor: pointer;
   @media screen and (min-width:1200px) {
     display: none;
   }
