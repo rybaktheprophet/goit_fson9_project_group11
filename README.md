@@ -20,7 +20,7 @@ Włączyć tryp pracy.
 npm run dev
 ```
 
-W przeglądarce przejść na [http://localhost:1234](http://localhost:1234).
+W przeglądarce przejść na [http://localhost:1234]http://localhost:1234](http://localhost:1234).
 
 ### Deploy
 
