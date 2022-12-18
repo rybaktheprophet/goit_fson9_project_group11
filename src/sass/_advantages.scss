@@ -13,10 +13,18 @@
         align-items: center;
         margin-bottom: 38px;
         
-      
-              &::before {
+              &:first-child::before {
         content: url("../images/Advantages/icon1@1x.png");
     }
+     &:nth-child(2n)::before {
+        content: url("../images/Advantages/icon2@1x.png");
+    }
+
+     &:nth-child(3n)::before {
+        content: url("../images/Advantages/icon3@1x.png");
+    }
+
+
     }
     &__h2 {
     display: none;   
