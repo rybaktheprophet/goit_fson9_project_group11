@@ -1,9 +1,9 @@
 .advantages {
     background-color: $background-pink;
     padding: 20px;
-
-    
-
+  padding-top: 40px;
+  padding-bottom: 30px;
+  
      &__h2 {
     display: none;   
     }
@@ -54,6 +54,7 @@
     margin: 0 auto;
     display: grid;
     grid: auto-flow / 1fr;
+    padding: 0;
 
     @media screen and (min-width: 768px) {
     grid: auto-flow / 1fr 1fr 1fr; 
