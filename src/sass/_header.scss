@@ -124,11 +124,15 @@ position: relative;
   width:250px;
   height: 502px;;
   position: fixed;
+<<<<<<< HEAD
 
+=======
+>>>>>>> dev
   z-index: 200;
   background-color: $modal-pink;
   margin:auto;
   top:0;
+<<<<<<< HEAD
   left: 50%;
   transform:translateX(-50%);
   margin-left: auto;
@@ -219,3 +223,8 @@ position: relative;
 stroke: $dark-pink;
 margin-left: 25.77px;
 }
+=======
+  margin-left: auto;
+  margin-right:auto;
+}
+>>>>>>> dev
