@@ -78,7 +78,7 @@ background-position: center 0, center 113px;
       background-position: center 0, center 113px;
   }
   &__text-head {
-    padding-top: 80px;
+    padding-top: 250px;
     display: flex;
     justify-content: center;
     font-family: $font;
@@ -90,7 +90,7 @@ background-position: center 0, center 113px;
     color: $white;
   }
   &__text-body {
-    font-family: 'DM Sans';
+    font-family: $font_DM;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -99,5 +99,15 @@ background-position: center 0, center 113px;
     letter-spacing: 0.04em;
     padding: 0 40px;
     color: $white;
+    margin: 0 auto;
   }
+}
+.img{
+  padding: 30px 0 40px 0;
+  margin: 0 auto;
+}
+.icon{
+  margin: 0 auto;
+  fill: $white;
+  padding: 25px 0;
 }
