@@ -98,6 +98,18 @@
   right: 0;
   z-index: 0;
 }
+// Add animation for circle
+.hero-foto__img--background {
+  animation: shiftFromRight 3000ms ease-in-out;
+}
+@keyframes shiftFromRight {
+  0% {
+    transform: translate(100vw, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
 // HERO right side
 .hero-aside {
   display: none;
@@ -176,6 +188,7 @@
     display: flex;
     flex-direction: column;
     z-index: 1;
+    overflow: hidden;
   }
   .hero-aside__list {
     margin: 0;
@@ -217,6 +230,18 @@
     line-height: 1.25;
     text-align: right;
     color: $white;
+  }
+}
+// Add animation for cowgirl
+.hero-aside__img {
+  animation: shiftFromBottom 3000ms ease-in-out;
+}
+@keyframes shiftFromBottom {
+  0% {
+    transform: translate(0, 100vh);
+  }
+  100% {
+    transform: translate(0, 0);
   }
 }
 // --------------
