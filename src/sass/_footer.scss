@@ -28,6 +28,39 @@
   color: #d41443;
 }
 
+.footer__social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 43px;
+  gap: 28px;
+}
+.footer__social-link {
+  fill: #fea5bb;
+  stroke: #ffffff;
+}
+.footer__tel {
+  margin-top: 46px;
+  display: block;
+  text-align: right;
+}
+.footer__last {
+  height: 89px;
+  margin-top: 43px;
+  border-top: 1px solid #e1e1e1;
+  position: relative;
+}
+
+.footer__last-element {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 152%;
+  display: flex;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  color: #907e82;
+}
 .footer__last {
   height: 89px;
 
