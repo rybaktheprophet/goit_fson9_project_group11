@@ -100,7 +100,7 @@
 }
 // Add animation for circle
 .hero-foto__img--background {
-  animation: shiftFromRight 3000ms ease-in-out;
+  animation: shiftFromRight 1500ms ease-in-out;
 }
 @keyframes shiftFromRight {
   0% {
@@ -121,7 +121,7 @@
   .container--pink-header {
     display: flex;
     justify-content: space-between;
-    padding-top: 7px;
+    padding-top: 15px;
     padding-bottom: 0;
     padding-left: 34px;
     padding-right: 34px;
@@ -188,7 +188,7 @@
     display: flex;
     flex-direction: column;
     z-index: 1;
-    overflow: hidden;
+    // overflow: hidden;
   }
   .hero-aside__list {
     margin: 0;
@@ -232,9 +232,13 @@
     color: $white;
   }
 }
+.hero-aside__wrapper {
+  overflow: hidden;
+}
 // Add animation for cowgirl
 .hero-aside__img {
-  animation: shiftFromBottom 3000ms ease-in-out;
+  display: block;
+  animation: shiftFromBottom 2000ms ease-in-out;
 }
 @keyframes shiftFromBottom {
   0% {
