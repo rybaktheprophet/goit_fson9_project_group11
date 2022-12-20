@@ -4,10 +4,10 @@
   padding-top: 40px;
   padding-bottom: 30px;
   
-     &__h2 {
+     &__main-header {
     display: none;   
     }
-    &__h3 {
+    &__header-number {
         font-family: $font;
         font-size:36px;
         font-weight: 400;
@@ -16,20 +16,22 @@
         align-items: center;
         flex-direction: column;
         margin: 0;
+        margin-top: 16px;
 
     @media screen and (min-width: 768px) {
       font-size: 48px;
       line-height: 1.15;
-       
+      margin-top: 26px;   
     }
 
      @media screen and (min-width: 1280px) {
       font-size: 58px;
       line-height: 1.14;
+       margin-top: 30px;
     }
     }
 
-    &__p {
+    &__paragraph {
     font-family: 'DM Sans', sans-serif;
     font-size: 12px;    
     font-weight: 700;
