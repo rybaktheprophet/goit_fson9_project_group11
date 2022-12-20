@@ -12,11 +12,9 @@
   &--pink-header {
     padding-top: 137px;
     padding-bottom: 160px;
-    padding-right: 0;
   }
 }
-// HERO left side
-.hero__header {
+.hero__nav {
   position: relative;
   z-index: 2;
 }
@@ -82,22 +80,19 @@
 .hero__footer {
   display: none;
 }
-// HERO middle side
-.hero-foto {
-  position: relative;
-}
 .hero-foto__img {
   display: block;
   position: absolute;
-  top: -250px;
+  top: 32px;
   right: 32px;
   z-index: 1;
 }
 .hero-foto__img--background {
-  top: -259px;
+  top: 27px;
   right: 0;
   z-index: 0;
 }
+<<<<<<< HEAD
 // Add animation for circle
 .hero-foto__img--background {
   animation: shiftFromRight 3000ms ease-in-out;
@@ -111,12 +106,11 @@
   }
 }
 // HERO right side
+=======
+>>>>>>> c923888babb64be326800ea4af0dda99d9e7e3e3
 .hero-aside {
   display: none;
 }
-// -------------
-// TABLET styles
-// -------------
 @media screen and (min-width: $tablet) {
   .container--pink-header {
     display: flex;
@@ -126,7 +120,6 @@
     padding-left: 34px;
     padding-right: 34px;
   }
-  // HERO left side
   .hero {
     padding-bottom: 28px;
   }
@@ -145,7 +138,6 @@
     align-items: flex-end;
     padding-top: 26px;
   }
-  // HERO middle side
   .hero__img {
     display: block;
   }
@@ -157,8 +149,7 @@
     font-weight: 400;
     font-size: 8px;
     line-height: 1.5;
-    bottom: 31px;
-    margin: 0;
+    bottom: 24px;
     &::after {
       content: '';
       position: absolute;
@@ -176,23 +167,22 @@
     position: relative;
   }
   .hero-foto__img {
-    top: -36px;
+    top: -35px;
     right: -110px;
   }
   .hero-foto__img--background {
     top: -68px;
     right: -216px;
   }
-  // HERO right side
   .hero-aside {
     display: flex;
     flex-direction: column;
     z-index: 1;
     overflow: hidden;
   }
-  .hero-aside__list {
-    margin: 0;
+  .hero-aside__text--second {
     margin-bottom: auto;
+<<<<<<< HEAD
     padding-right: 8px;
   }
   .hero-aside__item {
@@ -322,5 +312,7 @@
   .hero-aside__text--small {
     font-size: 14px;
     line-height: 1.28;
+=======
+>>>>>>> c923888babb64be326800ea4af0dda99d9e7e3e3
   }
 }

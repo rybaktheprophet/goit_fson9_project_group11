@@ -5,7 +5,7 @@
   flex-direction: column;
   align-content: center;
   justify-content: center;
-  margin: 0 auto;
+  margin: 0;
   padding-bottom: 98px;
   gap: 20px;
 
@@ -13,13 +13,17 @@
     display: flex;
     flex-direction: column;
     padding-bottom: 98px;
-    margin: 0 auto;
   }
   &--natural {
+<<<<<<< HEAD
     padding-top: 121px;
     display: flex;
+=======
+    padding-top: 21px;
+    /*  display: flex; */
+>>>>>>> c923888babb64be326800ea4af0dda99d9e7e3e3
     justify-content: center;
-    font-family: $font;
+    font-family: 'Titan One';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -28,10 +32,10 @@
     text-transform: uppercase;
     align-content: center;
     color: $pink;
-    margin: 0 auto;
+    margin: 0;
   }
   &--offer {
-    margin: 0 auto;
+    margin: 0;
     padding-top: 15px;
     justify-content: center;
     font-family: $font;
@@ -55,13 +59,18 @@
     background-image: url(../images/Products/products-icecream_mobile@1x.png),
       url(../images/Products/Rectangle_icecrem.png);
     background-repeat: no-repeat;
+<<<<<<< HEAD
     background-size: 280px;
     background-position: center 0, CENTER 127px;
+=======
+    background-position: center 0, center 113px;
+>>>>>>> c923888babb64be326800ea4af0dda99d9e7e3e3
   }
   &__item2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+<<<<<<< HEAD
     margin: 0 auto;
     width: 100%;
     height: 620px;
@@ -70,11 +79,27 @@
     background-repeat: no-repeat;
     background-size: 280px;
     background-position: center 0, CENTER 127px;
+=======
+    border: solid 1px black;
+    /* background-color: $coffee; */
+    margin: 144px 20px 0 20px;
+    width: 250px;
+    height: auto;
+    /* border-radius: 24px; */
+    background-image: url(../images/Products/products-coffee_mobile@1x.png);
+    background-repeat: no-repeat;
+
+    /* background-position: 200px; */
+    /* background-position-y: 150px; */
+>>>>>>> c923888babb64be326800ea4af0dda99d9e7e3e3
   }
   &__item3 {
+    border: solid 1px black;
     display: flex;
     flex-direction: column;
+    /* background-color: $milkshake; */
     justify-content: center;
+<<<<<<< HEAD
     margin: 0 auto;
     width: 100%;
     height: 620px;
@@ -86,18 +111,35 @@
   }
   &__text-head {
     padding-top: 290px;
+=======
+    margin: 144px 20px 98px 20px;
+    width: 250px;
+    height: auto;
+    /* border-radius: 24px; */
+    background-image: url(../images/Products/products-milkshake_mobile@1x.png);
+    background-size: 249px 252px;
+    background-repeat: no-repeat;
+    /* background-position: 200px; */
+    /* background-position-y: -150px; */
+  }
+  &__text-head {
+    padding-top: 260px;
+>>>>>>> c923888babb64be326800ea4af0dda99d9e7e3e3
     display: flex;
     justify-content: center;
-    font-family: $font;
+    font-family: 'Titan One';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
     align-items: center;
-    color: $white;
+    color: red;
   }
   &__text-body {
+<<<<<<< HEAD
     width: 200px;
+=======
+>>>>>>> c923888babb64be326800ea4af0dda99d9e7e3e3
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
@@ -105,6 +147,7 @@
     line-height: 152%;
     text-align: center;
     letter-spacing: 0.04em;
+<<<<<<< HEAD
 
     color: $white;
     height: auto;
@@ -169,3 +212,9 @@
     }
   }
 }
+=======
+    padding: 10px 40px 0 40px;
+    color: blue;
+  }
+}
+>>>>>>> c923888babb64be326800ea4af0dda99d9e7e3e3

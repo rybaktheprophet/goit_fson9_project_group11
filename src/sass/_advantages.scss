@@ -1,10 +1,16 @@
 .advantages {
     background-color: $background-pink;
     padding: 20px;
+<<<<<<< HEAD
   padding-top: 40px;
   padding-bottom: 30px;
   
      &__h2 {
+=======
+
+
+    &__h2 {
+>>>>>>> c923888babb64be326800ea4af0dda99d9e7e3e3
     display: none;   
     }
     &__h3 {
@@ -12,11 +18,9 @@
         font-size:36px;
         font-weight: 400;
         color: $dark-pink;
-         display: flex;
-        align-items: center;
-        flex-direction: column;
         margin: 0;
 
+<<<<<<< HEAD
     @media screen and (min-width: 768px) {
       font-size: 48px;
       line-height: 1.15;
@@ -27,7 +31,12 @@
       font-size: 58px;
       line-height: 1.14;
     }
+=======
+        
+>>>>>>> c923888babb64be326800ea4af0dda99d9e7e3e3
     }
+
+
 
     &__p {
     font-family: 'DM Sans', sans-serif;
@@ -35,8 +44,8 @@
     font-weight: 700;
      color:black;
      max-width: 230px;
-     text-align: center;
 
+<<<<<<< HEAD
       @media screen and (min-width: 768px) {
       font-size: 14px;
       line-height: 1.74;
@@ -117,3 +126,16 @@
 
 
 }
+=======
+     &::after {
+        content: " <- test of pseudo-element";
+        color: green;
+    }
+}
+
+// .advantages__grid-item::after {
+// content: '';
+// background-image: url('../images\Advantages\icon1@1x.png');
+// }
+ }
+>>>>>>> c923888babb64be326800ea4af0dda99d9e7e3e3
