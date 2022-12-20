@@ -8,6 +8,7 @@
   .gallery {
     background: linear-gradient(0deg, $white 61%, $background-pink 61%);
   }
+<<<<<<< HEAD
 }
 
 @media screen and (min-width: $tablet) {
@@ -15,3 +16,12 @@
     background: linear-gradient(0deg, $white 61%, $background-pink 61%);
   }
 }
+=======
+}
+
+@media screen and (min-width: $tablet) {
+  .gallery {
+    background: linear-gradient(0deg, $white 61%, $background-pink 61%);
+  }
+}
+>>>>>>> dev
