@@ -17,7 +17,7 @@
   }
   &--natural {
     padding-top: 121px;
-     display: flex;
+    display: flex;
     justify-content: center;
     font-family: $font;
     font-style: normal;
@@ -50,62 +50,29 @@
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-<<<<<<< Updated upstream
-    width: 280px;
-=======
     width: 100%;
->>>>>>> Stashed changes
     height: 620px;
     background-image: url(../images/Products/products-icecream_mobile@1x.png),
       url(../images/Products/Rectangle_icecrem.png);
     background-repeat: no-repeat;
-<<<<<<< Updated upstream
-    background-position: center 0, center 113px;
+    background-size: 280px;
+    background-position: center 0, CENTER 127px;
   }
   &__item2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-    width: 280px;
-=======
-    background-size: 280px;
-    background-position: center 0, CENTER 127px;
-  }
-  &__item2 {
-display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0 auto;
-  width: 100%;
->>>>>>> Stashed changes
+    width: 100%;
     height: 620px;
     background-image: url(../images/Products/products-coffee_mobile@1x.png),
       url(../images/Products/Rectangle_coffe.png);
     background-repeat: no-repeat;
-<<<<<<< Updated upstream
-    background-position: center 0, center 113px;
-  }
-  &__item3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-    width: 280px;
-    height: 620px;
-    background-image: url(../images/Products/products-milkshake_mobile@1x.png),
-      url(../images/Products/Rectangle_milkshake.png);
-    background-repeat: no-repeat;
-    background-position: center 0, center 113px;
-  }
-  &__text-head {
-    padding-top: 250px;
-=======
     background-size: 280px;
     background-position: center 0, CENTER 127px;
   }
   &__item3 {
-  display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
@@ -119,7 +86,6 @@ display: flex;
   }
   &__text-head {
     padding-top: 290px;
->>>>>>> Stashed changes
     display: flex;
     justify-content: center;
     font-family: $font;
@@ -131,96 +97,75 @@ display: flex;
     color: $white;
   }
   &__text-body {
-<<<<<<< Updated upstream
-=======
     width: 200px;
     font-family: 'DM Sans';
->>>>>>> Stashed changes
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 152%;
     text-align: center;
     letter-spacing: 0.04em;
-<<<<<<< Updated upstream
-    padding: 0 40px;
-    color: $white;
-    margin: 0 auto;
-  }
-}
-.img {
-  padding: 30px 0 40px 0;
-  margin: 0 auto;
-}
-.icon {
-  margin: 0 auto;
-  fill: $white;
-  padding: 25px 0;
-=======
 
     color: $white;
     height: auto;
     margin: 0 auto;
   }
-
 }
-.img{
+.img {
   margin: 0 auto;
   padding: 40px 0;
 }
-.icon{
+.icon {
   margin: 0 auto;
   fill: $white;
-padding: 20px 0;
+  padding: 20px 0;
 }
-.box{
+.box {
   max-width: 480px;
 }
 @media screen and (min-width: 768px) {
-  .products{
-max-width: 1199px;
-/* margin: 0 auto; */
-&__text-body {
-  width: 200px;
-  }
-        &__item1 {
-          width: 990px;
-        }
+  .products {
+    max-width: 1199px;
+    /* margin: 0 auto; */
+    &__text-body {
+      width: 200px;
+    }
+    &__item1 {
+      width: 990px;
+    }
     &__item2 {
       width: 990px;
     }
-        &__item3 {
-          width: 990px;
-        }
-.box {
-  display: flex;
-  flex-direction: row;
-    max-width: 1100px;
-    gap: 30px;
-  }
-  
-}
-@media screen and (min-width: 1280px) {
-  .products {
-    max-width: 1280px;
-    padding: 0 120px;
-    margin: 0 auto;
-    gap: 30px;
-    padding-bottom: 98px;
-    &__text-head {
-    padding: 260px 0 0 0;
+    &__item3 {
+      width: 990px;
     }
-        &__text-body{
-          width: 220px;
-        }
+    .box {
+      display: flex;
+      flex-direction: row;
+      max-width: 1100px;
+      gap: 30px;
+    }
   }
+  @media screen and (min-width: 1280px) {
+    .products {
+      max-width: 1280px;
+      padding: 0 120px;
+      margin: 0 auto;
+      gap: 30px;
+      padding-bottom: 98px;
+      &__text-head {
+        padding: 260px 0 0 0;
+      }
+      &__text-body {
+        width: 220px;
+      }
+    }
 
-  .box {
-    display: flex;
-    flex-direction: row;
-    max-width: 1280px;
-    gap: 30px;
+    .box {
+      display: flex;
+      flex-direction: row;
+      max-width: 1280px;
+      gap: 30px;
+    }
   }
-}
->>>>>>> Stashed changes
 }
