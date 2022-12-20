@@ -24,22 +24,27 @@
   line-height: 39px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-
+  display: block;
   color: #d41443;
 }
 
 .footer__social-links {
   flex-direction: row;
   text-align: right;
+  margin-top: 43px;
 }
 .footer__social-link {
   fill: #fea5bb;
-  stroke:#ffffff;
+  stroke: #ffffff;
+}
+.footer__tel {
+  margin-top: 46px;
 }
 .footer__last {
   height: 89px;
-
+  margin-top: 43px;
   border-top: 1px solid #e1e1e1;
+  // display: flex;
 }
 
 .footer__last-element {
@@ -48,8 +53,8 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 152%;
-
+  display: flex;
   text-align: center;
-  display: block;
+  // flex-direction: column;
   color: #907e82;
 }
