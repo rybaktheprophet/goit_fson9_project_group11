@@ -152,9 +152,8 @@
   }
   .menu-mobile{
     width:250px;
-    height: 502px;;
+    height: 502px;
     position: fixed;
-  
     z-index: 200;
     background-color: $modal-pink;
     margin:auto;
@@ -165,8 +164,13 @@
     margin-right:auto;
     padding-bottom:171px;
     // padding-top: 60px;
-  
+
+    @media screen and (min-width:768px) and (max-width:1280px) {
+      width: 254px;
+      height: 1020px; 
+    }
   }
+  
   .menu-mobile__list-link{
     color:$white;
     font-weight: 700;
