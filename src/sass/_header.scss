@@ -98,3 +98,19 @@ position: relative;
    
   
 }
+.is-hidden{
+  opacity:0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.menu-mobile{
+  width:250px;
+  height: 502px;;
+  position: fixed;
+  z-index: 200;
+  background-color: $modal-pink;
+  margin:auto;
+  top:0;
+  margin-left: auto;
+  margin-right:auto;
+}
