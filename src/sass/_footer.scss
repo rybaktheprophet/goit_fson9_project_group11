@@ -44,7 +44,7 @@
   height: 89px;
   margin-top: 43px;
   border-top: 1px solid #e1e1e1;
-  // display: flex;
+  position: relative;
 }
 
 .footer__last-element {
@@ -53,8 +53,12 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 152%;
-  display: flex;
+  // display: flex;
+  display: block;
   text-align: center;
+  justify-content: center;
   // flex-direction: column;
   color: #907e82;
+  top: 50%;
+  left: 50%;
 }
