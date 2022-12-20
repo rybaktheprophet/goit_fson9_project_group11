@@ -51,18 +51,32 @@ border-style: none;
 @media screen and (max-width:1199px) {
   display: none;
   
-}
-}
 
-.header__nav-container{
-margin: left 50px;
-// display: flex;  
-}
-.header__icon-mobile-menu{
-  stroke: rgba(212, 20, 67, 1);
-  
+  }
+  .header__navigation-list{
+    color:rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.301;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    column-gap: 35px;
+    text-align:center;
+ 
+  @media screen and (max-width:1199px) {
+    display: none;
+    
+  }
+  }
+  .header__navigation-list-item{
+    cursor: pointer;
+    &:active,
+    &:hover,
+    &:focus {
+      color: $dark-pink;
+    }
 
-}
 
 .header__logo-container{
 padding-top: 6px;
