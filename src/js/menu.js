@@ -1,12 +1,14 @@
-const menuOverlay = document.querySelector('.modal-contacts');
-const closeMenuButton = document.querySelector('.modal-contacts__close-btn');
-const openMenuBtn = document.querySelector('.contacts__buttons-one');
-
-
-openMenuBtn.addEventListener('click', e => {
-  menuOverlay.classList.remove('d-none');
-});
-
-closeMenuButton.addEventListener('click', e => {
-  menuOverlay.classList.add('d-none');
-});
+(() => {
+    const refs = {
+      openMenuBtn: document.querySelector("[data-menu-open]"),
+      closeMenuBtn: document.querySelector("[data-menu-close]"),
+      menu: document.querySelector("[data-menu]"),
+    };
+  
+    refs.openMenuBtn.addEventListener("click", toggleMenu);
+    refs.closeMenuBtn.addEventListener("click", toggleMenu);
+  
+    function toggleMenu() {
+      refs.menu.classList.toggle("is-hidden");
+    }
+  })();
