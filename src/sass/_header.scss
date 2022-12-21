@@ -20,6 +20,7 @@
   display: flex;
   align-items: center;
   align-content: space-between;
+  
   position: relative;
 
 
@@ -30,9 +31,10 @@
     position: relative;
   }
   @media screen and (min-width:1280px) {
-    padding-left: 46px;
+  padding-left: 46px;
   padding-right: 115px; 
   padding-top: 34px;
+  justify-content: space-between;
   }
 
 
@@ -66,6 +68,10 @@
    right:34px;
    z-index: 1;
     
+  }
+  @media screen and (min-width:1280px){
+    position: static;
+
   }
   
   }
