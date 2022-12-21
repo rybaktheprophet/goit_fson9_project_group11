@@ -13,8 +13,8 @@
 .header__container{
   width: 100vw;
   background-color: $pink;
-  padding-left: 20px;
-  padding-right: 101px;
+  padding-left: 46px;
+  padding-right: 115px;
   padding-top: 6px;
   padding-bottom: 0;
   display: flex;
@@ -23,10 +23,10 @@
   position: relative;
 
 
-  @media  screen and (min-width:768px) {
-    padding-top: 37px;
+  @media  screen and (min-width:768px) and (max-width:1279px) {
+    padding-top: 34px;
     padding-left: 34px;
-    padding-right: 34;
+    padding-right: 46px;
     position: relative;
   }
   
