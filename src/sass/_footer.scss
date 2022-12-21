@@ -103,6 +103,15 @@
   }
 }
 
+// .footer__social-link {
+//   fill: $footer-pink;
+//   stroke: $white;
+
+//   &:hover {
+//     fill: $dark-pink;
+//   }
+// }
+
 .footer__tel {
   margin-top: 46px;
   display: block;
@@ -122,10 +131,27 @@
   line-height: 186%;
   text-align: right;
   color: $black;
+
+  @media (min-width: $tablet) {
+    font-size: 14px;
+  }
+  @media (min-width: $desktop) {
+    font-size: 16px;
+  }
 }
 .footer__tel-number {
+  font-family: 'DM Sans';
+
+  font-weight: 700;
+  font-size: 12px;
   text-decoration: none;
   color: $dark-pink;
+  @media (min-width: $tablet) {
+    font-size: 14px;
+  }
+  @media (min-width: $desktop) {
+    font-size: 16px;
+  }
 }
 
 .footer__copyright {
@@ -174,7 +200,8 @@
   color: #907e82;
   @media (min-width: $tablet) {
     display: inline;
-    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
   }
   @media (min-width: $desktop) {
     max-width: 1280px;
@@ -185,12 +212,11 @@
   @media (min-width: $tablet) {
     position: absolute;
     top: 35%;
-    left: 33%;
+    left: 37%;
   }
   @media (min-width: $desktop) {
     max-width: 1280px;
     position: absolute;
-    top: 35%;
-    left: 40%;
+    left: 37%;
   }
 }
