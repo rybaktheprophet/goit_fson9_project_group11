@@ -1,98 +1,97 @@
-.container {
-  box-sizing: border-box;
-  width: 100%;
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 0 50px;
-  @media (min-width: $tablet) {
-    padding-left: 36px;
-    padding-right: 36px;
-  }
-  @media (min-width: $desktop) {
-    padding-left: 115px;
-    padding-right: 115px;
-  }
+.container{
+    box-sizing: border-box;
+    width:100%;
+    max-width:1280px;
+    margin:0 auto;
+    padding:0 50px;
+    @media (min-width:$tablet){
+        padding-left:36px;
+        padding-right:36px;
+    }
+    @media (min-width:$desktop){
+        padding-left:115px;
+        padding-right:115px;
+    }
 }
-.container-contacts {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  top: -78px;
-  max-width: 480px;
-  margin-bottom: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  @media (min-width: $tablet) {
-    max-width: 768px;
-    top: -79px;
-  }
-  @media (min-width: $desktop) {
-    max-width: 1280px;
-    top: -102px;
-    margin-top: 102px;
-    padding-left: 115px;
-    padding-right: 115px;
-  }
+.container-contacts{
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    top:-78px;
+    max-width:480px;
+    margin-bottom:0px;
+    margin-left:auto;
+    margin-right:auto;
+    @media (min-width:$tablet){
+        max-width: 768px;
+        top:-79px;
+    }
+    @media (min-width:$desktop){
+        max-width: 1280px;
+        top:-102px;
+    }
 }
-.container-contacts--background {
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-  top: 78px;
-  background-color: $background-pink;
-  @media (min-width: $tablet) {
-    top: 79px;
-  }
-  @media (min-width: $desktop) {
-    background: $background-pink url(../images/Contacts/background-contacts_lg@1x.png);
-    max-width: 100vw;
-    height: 382px;
-    background-size: 1280px 382px;
-  }
-  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    .container-contacts--background {
-      @media (min-width: $desktop) {
+.container-contacts--background{
+    width:100%;
+    margin:0 auto;
+    position:relative;
+    top:78px;
+    background-color: $background-pink;
+    @media (min-width:$tablet){
+        top:79px;
+    }
+    @media (min-width:$desktop){
+        background: $background-pink url(../images/Contacts/background-contacts_lg@1x.png);
+        max-width:100vw;
+        height:382px;
+        background-size: 1280px 382px;
+    }
+}
+@media (min-device-pixel-ratio: 2),
+(min-resolution:192dpi),
+(min-resolution: 2dppx){
+    .container-contacts--background{
+    @media (min-width:$desktop){
         background: $background-pink url(../images/Contacts/background-contacts_lg@2x.png);
         max-width: 100vw;
         height: 382px;
         background-size: 1280px 382px;
-      }
     }
-  }
-  .contacts-title {
-    font-family: 'Titan One';
-    font-weight: 400;
-    font-size: 18px;
-    color: $dark-pink;
-    display: none;
-    text-align: center;
-  }
-  .contacts {
-    display: block;
-    margin: 0 auto;
-    padding: 0px;
-    @media (min-width: $tablet) {
-      display: flex;
-      flex: wrap;
-
-      gap: 20px;
+}
+}
+.contacts{
+   display:block;
+    margin:0 auto;
+    padding:0px;
+    @media (min-width:$tablet){
+        display:flex;
+        flex: wrap;
+        gap:20px;
     }
-    @media (min-width: $desktop) {
+    @media (min-width: $desktop){
       gap: 31px;
     }
-    &__item:not(:last-child) {
+    &__item:not(:last-child){
       margin-bottom: 20px;
-      @media (min-width: $tablet) {
+      @media (min-width: $tablet){
         flex-basis: calc((100% - 40px) / 3);
         margin-bottom: 0px;
       }
-      @media (min-width: $desktop) {
+      @media (min-width: $desktop){
         flex-basis: calc((100% - 62px) / 3);
         margin-bottom: 0px;
       }
     }
-  }
-  .contacts__cards {
+ }
+ .contacts-title{
+    display:none;
+    font-family: 'Titan One';
+    font-weight: 800;
+    color: $dark-pink;
+    text-align:center;
+
+ }
+.contacts__cards{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -104,84 +103,83 @@
     padding-bottom: 43px;
     padding-left: 21px;
     padding-right: 21px;
-    margin: 0;
-    @media (min-width: $tablet) {
-      padding-top: 50px;
-      padding-bottom: 50px;
-      padding-left: 31px;
-      padding-right: 31px;
-    }
-    @media (min-width: $desktop) {
-      width: 330px;
-
-      padding-top: 51px;
-      padding-bottom: 62px;
-      padding-left: 43px;
-      padding-right: 44px;
-    }
-  }
-  .contacts__cards-title {
+    margin:0;
+@media (min-width:$tablet){
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left:31px;
+    padding-right:31px;
+}
+@media (min-width:$desktop){
+    width:330px;
+    padding-top:51px;
+    padding-bottom:62px;
+    padding-left:43px;
+    padding-right:44px;
+}
+}
+.contacts__cards-title{
     font-family: 'DM Sans';
     font-weight: 500px;
     font-size: 12px;
-    text-align: center;
+    text-align:center;
     color: $white;
     text-transform: uppercase;
-    @media (min-width: $tablet) {
-      font-size: 16px;
-    }
-    &--background-one {
-      width: 80px;
-      height: 16px;
-      background-color: $coffee;
-      border-radius: 4px;
-      margin-top: 0px;
-      margin-bottom: 25px;
-      padding-top: 2px;
-      @media (min-width: $tablet) {
-        width: 73px;
-        height: 28px;
+@media (min-width:$tablet){
+    font-size: 16px;
+}
+&--background-one{
+    width:80px;
+    height:16px;
+    background-color: $coffee;
+    border-radius: 4px;
+    margin-top:0px;
+    margin-bottom:25px;
+    padding-top:2px;
+    @media (min-width:$tablet){
+        width:73px;
+        height:28px;
         border-radius: 6px;
-        margin-bottom: 30px;
-        padding-top: 5px;
-      }
-      @media (min-width: $desktop) {
-        margin-bottom: 32px;
-      }
+        margin-bottom:30px;
+        padding-top:5px;
     }
-    &--background-two {
-      width: 130px;
-      height: 16px;
-      background-color: $milkshake;
-      border-radius: 4px;
-      margin-top: 0px;
-      margin-bottom: 25px;
-      padding-top: 2px;
-      @media (min-width: $tablet) {
-        width: 138px;
-        height: 28px;
+    @media (min-width:$desktop){
+        margin-bottom:32px;
+    }
+}
+&--background-two{
+    width:130px;
+    height:16px;
+    background-color: $milkshake;
+    border-radius: 4px;
+    margin-top:0px;
+    margin-bottom:25px;
+    padding-top:2px;
+    @media (min-width:$tablet){
+        width:138px;
+        height:28px;
         border-radius: 6px;
-        margin-bottom: 30px;
-        padding-top: 5px;
-      }
-      @media (min-width: $desktop) {
-        margin-bottom: 32px;
-      }
+        margin-bottom:30px;
+        padding-top:5px;
     }
-  }
-  .contact__cards-bold-text {
-    width: 179px;
+    @media (min-width:$desktop){
+        margin-bottom:32px;
+    }
+}
+}
+.contact__cards-bold-text{
+    width:179px;
     font-family: 'DM Sans';
     font-weight: 500;
     font-size: 12px;
     color: $black;
     margin-bottom: 10px;
     margin-top: 0px;
-    @media (min-width: $tablet) {
+    @media (min-width: $tablet){
       font-size: 14px;
       margin-bottom: 14px;
     }
-    @media (min-width: $desktop) {
+    @media (min-width: $desktop){
       font-size: 16px;
       margin-bottom: 10px;
     }
@@ -208,102 +206,117 @@
     font-weight: 500;
     font-size: 12px;
     color: $grey;
-    margin-bottom: 25px;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    @media (min-width: $tablet) {
-      width: 145px;
-      font-size: 14px;
-      margin-bottom: 30px;
+    margin-bottom:25px;
+    margin-top:0px;
+    margin-right:0px;
+    margin-left:0px;
+    @media (min-width:$tablet){
+        width:145px;
+        font-size: 14px;
+        margin-bottom:30px;
     }
-    @media (min-width: $desktop) {
-      width: 243px;
-      font-size: 16px;
-      margin-bottom: 32px;
+    @media (min-width:$desktop){
+        width:243px;
+        font-size:16px;
+        margin-bottom:32px;
     }
-  }
-  .contacts__cards-border {
-    width: 179px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    margin-bottom: 25px;
+}
+.contacts__cards-border{
+    width:179px;
+    padding-top:25px;
+    padding-bottom:25px;
+    margin-bottom:25px;
     border-top-width: 1px;
     border-top-style: solid;
-    border-top-color: #e1e1e1;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: #e1e1e1;
-    @media (min-width: $tablet) {
-      width: 157px;
-      padding-top: 30px;
-      padding-bottom: 30px;
-      margin-bottom: 30px;
+    border-top-color: #E1E1E1;
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-bottom-color: #E1E1E1;
+    @media (min-width:$tablet){
+        width:157px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
     }
-    @media (min-width: $desktop) {
-      width: 234px;
-      padding-top: 32px;
-      padding-bottom: 37px;
-      margin-bottom: 37px;
+    @media (min-width:$desktop){
+        width:234px;
+        padding-top:32px;
+        padding-bottom:37px;
+        margin-bottom:37px;
+    }
+}
+.contact__cards-bold-text--color{
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 12px;
+    color: $footer-pink;
+    margin-top:0;
+    margin-bottom:10px;
+    @media (min-width:$tablet){
+        font-size: 14px;
+        margin-bottom:16px;
+    }
+    @media (min-width:$desktop){
+        font-size:16px;
+        margin-bottom:15px;
     }
 }
 .contact__cards-bold-text--color-margin{
     margin-bottom:0px;
 }
 .contact__cards-contacts{
-
     font-family: 'DM Sans';
-    font-weight: 500;
-    font-size: 12px;
+    font-weight:500;
+    font-size:12px;
     color: $grey;
     text-decoration: none;
-    margin-bottom: 5px;
-    @media (min-width: $tablet) {
-      font-size: 14px;
+    margin-bottom:5px;
+    @media (min-width:$tablet){
+        font-size:14px;
     }
-    @media (min-width: $desktop) {
-      font-size: 16px;
-      margin-bottom: 10px;
+    @media (min-width:$desktop){
+        font-size: 16px;
+        margin-bottom:10px;
     }
-  }
-  .contacts__buttons {
-    display: block;
-    margin-top: 54px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0px;
-    @media (min-width: $tablet) {
-      margin-top: 81px;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+}
+.contacts__buttons{
+    display:block;
+    margin-top:54px;
+    margin-bottom:0px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:0px;
+    @media (min-width:$tablet){
+        margin-top: 81px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     @media (min-width: $desktop) {
       margin-top: 86px;
     }
   }
-  .contacts__buttons-one {
+  .contacts__buttons-one{
     width: 161px;
     height: 44px;
     background-color: #d41342;
     border-radius: 22px;
     border-style: none;
-    padding: 0px;
-    margin-bottom: 10px;
+    padding:0px;
+    margin-bottom:10px;
     cursor: pointer;
     font-family: 'DM Sans';
     font-weight: 700;
     font-size: 16px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:center;
     color: $white;
-    @media (min-width: $tablet) {
-      width: 191.45px;
-      margin-right: 14.5px;
+    @media (min-width:$tablet){
+        width:191.45px;
+        margin-right:14.5px;
     }
-    @media (min-width: $desktop) {
+    @media (min-width: $desktop){
       width: 198px;
       margin-right: 16px;
     }
@@ -321,34 +334,32 @@
     background-color: $white;
     border-radius: 22px;
     border-style: none;
-    margin-top: 10px;
-    padding-right: 0px;
-    padding-left: 0px;
+    margin-top:10px;
+    padding-right:0px;
+    padding-left:0px;
     cursor: pointer;
     font-family: 'DM Sans';
     font-weight: 700;
     font-size: 16px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:center;
     color: $dark-pink;
-    @media (min-width: $tablet) {
-      width: 174px;
-      margin-top: 0px;
+    @media (min-width:$tablet){
+        width:174px;
+        margin-top:0px;
     }
-    @media (min-width: $desktop) {
+    @media (min-width: $desktop){
       width: 180px;
     }
 }
 .contacts__buttons-two:hover{
-
     background-color: $link-hover;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: background-color;
 }
 .contacts__buttons-two:focus{
-
     background-color: $link-hover;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -361,4 +372,4 @@
     height:8px;
     fill: $dark-pink;
   }
-}
+
