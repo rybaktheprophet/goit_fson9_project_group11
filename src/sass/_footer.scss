@@ -1,5 +1,4 @@
 .footer {
-  // margin-top: 100px;
   background: $background-pink;
   width: 100%;
 
@@ -9,8 +8,12 @@
   }
   @media (min-width: $desktop) {
     padding-top: 300px;
-
-    // ten margines jest dlatego że powyższa sekcja przykrywa footer
+  }
+}
+.footer__conteiner {
+  @media (min-width: $desktop) {
+    max-width: 1280px;
+    margin: auto;
   }
 }
 .footer__title {
@@ -103,14 +106,29 @@
   }
 }
 
-// .footer__social-link {
-//   fill: $footer-pink;
-//   stroke: $white;
+.footer__social-link {
+  display: flex;
+  background-color: #fea5bb;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
 
-//   &:hover {
-//     fill: $dark-pink;
-//   }
-// }
+  @media screen and (min-width: $tablet) {
+    width: 34px;
+    height: 34px;
+  }
+  @media (min-width: $desktop) {
+    width: 34px;
+    height: 34px;
+  }
+
+  &:hover {
+    background-color: $dark-pink;
+  }
+}
 
 .footer__tel {
   margin-top: 46px;
@@ -154,19 +172,6 @@
   }
 }
 
-.footer__copyright {
-  height: 89px;
-  margin-top: 43px;
-  border-top: 1px solid #e1e1e1;
-  position: relative;
-  @media (min-width: $tablet) {
-    height: 70px;
-  }
-  @media (min-width: $desktop) {
-    height: 45px;
-  }
-}
-
 .footer__copyright-element1 {
   font-family: 'DM Sans';
   font-style: normal;
@@ -207,16 +212,32 @@
     max-width: 1280px;
   }
 }
+.footer__copyright {
+  height: 89px;
+  margin-top: 43px;
+  border-top: 1px solid #e1e1e1;
+  position: relative;
+  @media (min-width: $tablet) {
+    height: 70px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  @media (min-width: $desktop) {
+    height: 45px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+}
 .footer__copyright-box {
   display: inline;
   @media (min-width: $tablet) {
-    position: absolute;
-    top: 35%;
-    left: 37%;
+    text-align: center;
   }
   @media (min-width: $desktop) {
     max-width: 1280px;
-    position: absolute;
-    left: 37%;
+    text-align: center;
   }
 }
