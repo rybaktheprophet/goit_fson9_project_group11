@@ -103,6 +103,15 @@
   }
 }
 
+// .footer__social-link {
+//   fill: $footer-pink;
+//   stroke: $white;
+
+//   &:hover {
+//     fill: $dark-pink;
+//   }
+// }
+
 .footer__tel {
   margin-top: 46px;
   display: block;
@@ -210,8 +219,4 @@
     position: absolute;
     left: 37%;
   }
-}
-
-.footer__activ-link:hover {
-  color: $dark-pink;
 }
