@@ -1,17 +1,20 @@
 .footer {
-  margin-top: 100px;
+  // margin-top: 100px;
   background: $background-pink;
   width: 100%;
-  max-width: 1280px;
-  margin: 150px auto 0;
+
+  margin: 78px auto 0;
+  @media screen and (min-width: $tablet) {
+    margin-top: 79px;
+  }
   @media (min-width: $desktop) {
-    margin-top: 400px;
+    padding-top: 300px;
 
     // ten margines jest dlatego że powyższa sekcja przykrywa footer
   }
 }
 .footer__title {
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: $tablet) {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -31,7 +34,14 @@
   max-width: 250px;
   display: block;
 
+  @media screen and (min-width: $tablet) {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
   @media (min-width: $desktop) {
+    font-size: 26px;
+    line-height: 30px;
     display: inline;
   }
 }
@@ -48,13 +58,20 @@
   display: block;
   margin-top: 17px;
   padding-left: 20px;
+
+  @media screen and (min-width: $tablet) {
+    font-size: 48px;
+    line-height: 55px;
+  }
   @media (min-width: $desktop) {
     max-width: 1280px;
+    font-size: 58px;
+    line-height: 66px;
   }
 }
 
 .footer__conteiner {
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: $tablet) {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -62,10 +79,9 @@
 }
 
 .footer__right-side {
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: $tablet) {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
   }
 }
 
@@ -77,9 +93,12 @@
   gap: 28px;
   padding-right: 20px;
   cursor: pointer;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: $tablet) {
     display: flex;
     margin-top: 0;
+    cursor: pointer;
+  }
+  @media (min-width: $desktop) {
     cursor: pointer;
   }
 }
@@ -89,13 +108,15 @@
   display: block;
   text-align: right;
   padding-right: 20px;
+
+  @media screen and (min-width: $tablet) {
+    margin-top: 20;
+  }
   @media (min-width: $desktop) {
-    margin-top: 0;
   }
 }
 .footer__tel-contact {
-  font-family: $font;
-  font-style: normal;
+  font-family: 'DM Sans';
   font-weight: 700;
   font-size: 12px;
   line-height: 186%;
@@ -112,9 +133,17 @@
   margin-top: 43px;
   border-top: 1px solid #e1e1e1;
   position: relative;
+  @media (min-width: $tablet) {
+    height: 70px;
+  }
+  @media (min-width: $desktop) {
+    height: 45px;
+  }
 }
 
 .footer__copyright-element1 {
+  font-family: 'DM Sans';
+  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 152%;
@@ -133,6 +162,8 @@
   }
 }
 .footer__copyright-element2 {
+  font-family: 'DM Sans';
+  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 152%;
@@ -149,16 +180,17 @@
     max-width: 1280px;
   }
 }
-.pomocnicza {
+.footer__copyright-box {
   display: inline;
   @media (min-width: $tablet) {
     position: absolute;
-    top: 40%;
-    left: 40%;
+    top: 35%;
+    left: 33%;
   }
   @media (min-width: $desktop) {
+    max-width: 1280px;
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 40%;
   }
 }
