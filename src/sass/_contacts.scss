@@ -183,6 +183,22 @@
         font-size: 16px;
         margin-bottom:10px;
     }
+&--color{
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 12px;
+    color: $footer-pink;
+    margin-top:0;
+    margin-bottom:10px;
+    @media (min-width:$tablet){
+        font-size: 14px;
+        margin-bottom:16px;
+    }
+    @media (min-width:$desktop){
+        font-size: 16px;
+        margin-bottom:15px;
+    }
+}
 }
 .contacts__cards-content{
     width:179px;
@@ -227,22 +243,6 @@
         padding-top:32px;
         padding-bottom:37px;
         margin-bottom:37px;
-    }
-}
-.contact__cards-bold-text--color{
-    font-family: 'DM Sans';
-    font-weight: 500;
-    font-size: 12px;
-    color: $footer-pink;
-    margin-top:0;
-    margin-bottom:10px;
-    @media (min-width:$tablet){
-        font-size: 14px;
-        margin-bottom:16px;
-    }
-    @media (min-width:$desktop){
-        font-size: 16px;
-        margin-bottom:15px;
     }
 }
 .contact__cards-bold-text--color-margin{
@@ -305,14 +305,14 @@
         margin-right:16px;
     }
 }
-.contacts__buttonx-vector-one{
+.contacts__buttons-vector-one{
     position:relative;
     left:8px;
     width:4px;
     height:8px;
     fill: $white;
 }
-.contacts-buttons-two{
+.contacts__buttons-two{
     width:161px;
     height:44px;
     background-color: $white;
@@ -337,19 +337,19 @@
         width:180px;
     }
 }
-.contacts-buttons-two:hover{
+.contacts__buttons-two:hover{
     background-color: $link-hover;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: background-color;
 }
-.contacts-buttons-two:focus{
+.contacts__buttons-two:focus{
     background-color: $link-hover;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: background-color;
 }
-.contacts__buttonx-vector-two{
+.contacts__buttons-vector-two{
     position:relative;
     left:8px;
     width:4px;
