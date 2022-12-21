@@ -6,7 +6,6 @@
 .container {
   box-sizing: border-box;
   width: 100%;
-  max-width: 1280px;
   margin: 0 auto;
   padding: 0 20px;
   &--pink-header {
@@ -40,6 +39,7 @@
   }
 }
 .hero__link {
+  display: inline-block;
   color: $white;
   background: $dark-pink;
   text-decoration: none;
@@ -52,26 +52,6 @@
   cursor: pointer;
 }
 .hero__link--white {
-  color: $dark-pink;
-  background: $white;
-  &:hover,
-  &:focus {
-    background: $link-hover;
-  }
-}
-.hero__button {
-  color: $white;
-  background: $dark-pink;
-  border: none;
-  border-radius: 20px;
-  font-family: inherit;
-  font-weight: 400;
-  font-size: 8px;
-  line-height: 1.25;
-  padding: 9px 14px;
-  cursor: pointer;
-}
-.hero__button--white {
   color: $dark-pink;
   background: $white;
   &:hover,
@@ -98,9 +78,19 @@
   right: 0;
   z-index: 0;
 }
+// .hero-picture {
+//   position: absolute;
+//   overflow: hidden;
+//   top: 103px;
+//   left: 579px;
+// }
+// .hero-picture__img {
+//   position: relative;
+//   top: 10px;
+// }
 // Add animation for circle
 .hero-foto__img--background {
-  animation: shiftFromRight 3000ms ease-in-out;
+  animation: shiftFromRight 1500ms ease-in-out;
 }
 @keyframes shiftFromRight {
   0% {
@@ -121,7 +111,7 @@
   .container--pink-header {
     display: flex;
     justify-content: space-between;
-    padding-top: 7px;
+    padding-top: 15px;
     padding-bottom: 0;
     padding-left: 34px;
     padding-right: 34px;
@@ -143,7 +133,7 @@
   .hero__footer {
     display: flex;
     align-items: flex-end;
-    padding-top: 26px;
+    padding-top: 19px;
   }
   // HERO middle side
   .hero__img {
@@ -176,7 +166,7 @@
     position: relative;
   }
   .hero-foto__img {
-    top: -36px;
+    top: -37px;
     right: -110px;
   }
   .hero-foto__img--background {
@@ -188,7 +178,6 @@
     display: flex;
     flex-direction: column;
     z-index: 1;
-    overflow: hidden;
   }
   .hero-aside__list {
     margin: 0;
@@ -204,6 +193,7 @@
     margin-bottom: 0;
   }
   .hero-aside__text {
+    display: block;
     position: relative;
     font-family: $font;
     font-size: 28px;
@@ -232,9 +222,13 @@
     color: $white;
   }
 }
+.hero-aside__wrapper {
+  overflow: hidden;
+}
 // Add animation for cowgirl
 .hero-aside__img {
-  animation: shiftFromBottom 3000ms ease-in-out;
+  display: block;
+  animation: shiftFromBottom 2000ms ease-in-out;
 }
 @keyframes shiftFromBottom {
   0% {
@@ -249,6 +243,7 @@
 // --------------
 @media screen and (min-width: $desktop) {
   .container--pink-header {
+    max-width: 1280px;
     padding-top: 74px;
     padding-inline: 115px;
   }
@@ -260,7 +255,7 @@
     font-size: 38px;
     line-height: 1.14;
     max-width: 277px;
-    margin-bottom: 36px;
+    margin-bottom: 25px;
     &--big-red {
       font-size: 58px;
       line-height: 0.9;
@@ -276,7 +271,7 @@
     margin-right: 10px;
   }
   .hero__footer {
-    padding-top: 63px;
+    padding-top: 56px;
   }
   // HERO middle side
   .hero__img {
@@ -294,7 +289,7 @@
     }
   }
   .hero-foto__img {
-    top: -60px;
+    top: -58px;
     right: -132px;
   }
   .hero-foto__img--background {
