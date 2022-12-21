@@ -139,7 +139,7 @@
     width: 100%;
     margin: 0 auto;
     &__head {
-      padding-top: 121px;
+      /* padding-top: 121px; */
     }
 
     &__item1 {
@@ -157,6 +157,7 @@
     &__item2 {
       width: 100%;
       height: 620px;
+      margin: 0;
       background-image: url(../images/Products/products-coffee_tablet@1x.png),
         url(../images/Products/Rectangle_coffe.png);
       @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -178,7 +179,7 @@
         background-position: center 0, CENTER 110px;
       }
     }
-    .box {
+    &__box {
       display: flex;
       flex-direction: row;
       max-width: 960px;
@@ -188,7 +189,6 @@
     &__text-head {
       padding-top: 220px;
     }
-    padding: 0 11px;
     &__text-body {
       width: 200px;
     }
