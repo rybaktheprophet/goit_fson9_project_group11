@@ -1,13 +1,4 @@
 .footer {
-<<<<<<< HEAD
-  margin-top: 100px;
-  background: #fff5f6;
-}
-
-.footer__title1 {
-  display: flex;
-  font-family: 'Titan One';
-=======
   background: $background-pink;
   width: 100%;
 
@@ -35,23 +26,16 @@
 
 .footer__title1 {
   font-family: $font;
->>>>>>> dev
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-<<<<<<< HEAD
-
-  color: #ffa5ba;
-}
-=======
   padding-left: 20px;
   color: $footer-pink;
   max-width: 250px;
   display: block;
->>>>>>> dev
 
   @media screen and (min-width: $tablet) {
     font-size: 26px;
@@ -65,17 +49,13 @@
   }
 }
 .footer__title2 {
-  font-family: 'Titan One';
+  font-family: $font;
   font-style: normal;
   font-weight: 400;
   font-size: 34px;
   line-height: 39px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-<<<<<<< HEAD
-
-  color: #d41443;
-=======
   max-width: 100px;
   color: $dark-pink;
   display: block;
@@ -106,7 +86,6 @@
     display: flex;
     flex-direction: column;
   }
->>>>>>> dev
 }
 
 .footer__social-links {
@@ -115,8 +94,6 @@
   justify-content: flex-end;
   margin-top: 43px;
   gap: 28px;
-<<<<<<< HEAD
-=======
   padding-right: 20px;
   cursor: pointer;
   @media screen and (min-width: $tablet) {
@@ -127,14 +104,9 @@
   @media (min-width: $desktop) {
     cursor: pointer;
   }
->>>>>>> dev
 }
 
 .footer__social-link {
-<<<<<<< HEAD
-  fill: #fea5bb;
-  stroke: #ffffff;
-=======
   display: flex;
   background-color: #fea5bb;
   border-radius: 50%;
@@ -156,23 +128,12 @@
   &:hover {
     background-color: $dark-pink;
   }
->>>>>>> dev
 }
+
 .footer__tel {
   margin-top: 46px;
   display: block;
   text-align: right;
-<<<<<<< HEAD
-}
-.footer__last {
-  height: 89px;
-  margin-top: 43px;
-  border-top: 1px solid #e1e1e1;
-  position: relative;
-}
-
-.footer__last-element {
-=======
   padding-right: 20px;
 
   @media screen and (min-width: $tablet) {
@@ -214,7 +175,6 @@
 .footer__copyright-element1 {
   font-family: 'DM Sans';
   font-style: normal;
->>>>>>> dev
   font-weight: 700;
   font-size: 14px;
   line-height: 152%;
@@ -280,20 +240,4 @@
     max-width: 1280px;
     text-align: center;
   }
-}
-.footer__last {
-  height: 89px;
-
-  border-top: 1px solid #e1e1e1;
-}
-
-.footer__last-element {
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 152%;
-  text-align: center;
-  color: #907e82;
-  
 }
