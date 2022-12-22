@@ -3,7 +3,7 @@
     background: $pink;
   }
 }
-.container {
+.container-hero {
   box-sizing: border-box;
   width: 100%;
   max-width: 1280px;
@@ -118,7 +118,7 @@
 // TABLET styles
 // -------------
 @media screen and (min-width: $tablet) {
-  .container--pink-header {
+  .container-hero--pink-header {
     display: flex;
     justify-content: space-between;
     padding-top: 15px;
@@ -252,7 +252,12 @@
 // DESKTOP styles
 // --------------
 @media screen and (min-width: $desktop) {
+<<<<<<< HEAD
   .container--pink-header {
+=======
+  .container-hero--pink-header {
+    max-width: 1280px;
+>>>>>>> dev
     padding-top: 74px;
     padding-inline: 115px;
   }
