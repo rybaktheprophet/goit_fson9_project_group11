@@ -57,7 +57,7 @@
         url(../images/Products/Rectangle_icecrem.png);
     }
     background-repeat: no-repeat;
-    background-size: 230px, 280px 485px;
+    background-size: 249px, 280px 485px;
     background-position: center 0, CENTER 105px;
   }
   &__item2 {
@@ -74,7 +74,7 @@
         url(../images/Products/Rectangle_coffe.png);
     }
     background-repeat: no-repeat;
-    background-size: 230px, 280px 485px;
+    background-size: 249px, 280px 485px;
     background-position: center 0, CENTER 105px;
   }
   &__item3 {
@@ -91,14 +91,14 @@
         url(../images/Products/Rectangle_milkshake.png);
     }
     background-repeat: no-repeat;
-    background-size: 230px, 280px 485px;
+    background-size: 249px, 280px 485px;
     background-position: center 0, CENTER 105px;
   }
   &__text-head {
     display: flex;
     justify-content: center;
     justify-items: center;
-    padding-top: 220px;
+    padding-top: 240px;
     font-family: $font;
     font-style: normal;
     font-weight: 400;
@@ -119,28 +119,24 @@
     color: $white;
     margin: 0 auto;
   }
-}
-.img {
-  padding: 30px 0 40px 0;
-  margin: 0 auto;
-}
-.dot {
-  margin: 0 auto;
-  padding: 30px 0;
+  &--dot {
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+  &--img {
+    padding: 30px 0 40px 0;
+    margin: 0 auto;
+  }
+  &__box {
+    max-width: 480px;
+    margin: 0 auto;
+  }
 }
 
-.box {
-  max-width: 480px;
-  margin: 0 auto;
-}
 @media screen and (min-width: 768px) {
   .products {
-    max-width: 958px;
     width: 100%;
     margin: 0 auto;
-    &__head {
-      /* padding-top: 121px; */
-    }
 
     &__item1 {
       width: 100%;
@@ -150,9 +146,9 @@
       @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         background-image: url(../images/Products/products-icecream_tablet@2x.png),
           url(../images/Products/Rectangle_icecrem.png);
-        background-size: 230px, 220px 485px;
-        background-position: center 0, CENTER 110px;
       }
+      background-size: 220px, 220px 485px;
+      background-position: center 0, CENTER 102px;
     }
     &__item2 {
       width: 100%;
@@ -163,9 +159,9 @@
       @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         background-image: url(../images/Products/products-coffee_tablet@2x.png),
           url(../images/Products/Rectangle_coffe.png);
-        background-size: 230px, 220px 485px;
-        background-position: center 0, CENTER 110px;
       }
+      background-size: 220px, 220px 485px;
+      background-position: center 0, CENTER 102px;
     }
     &__item3 {
       width: 100%;
@@ -175,19 +171,19 @@
       @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         background-image: url(../images/Products/products-milkshake_tablet@2x.png),
           url(../images/Products/Rectangle_milkshake.png);
-        background-size: 230px, 220px 485px;
-        background-position: center 0, CENTER 110px;
       }
+      background-size: 220px, 220px 485px;
+      background-position: center 0, CENTER 102px;
     }
     &__box {
       display: flex;
       flex-direction: row;
       max-width: 960px;
       gap: 20px;
-      margin: 0 auto;
+      padding: 0 34px;
     }
     &__text-head {
-      padding-top: 220px;
+      padding-top: 190px;
     }
     &__text-body {
       width: 200px;
@@ -204,44 +200,61 @@
       width: 240px;
     }
 
-    .box {
+    &__box {
       display: flex;
       flex-direction: row;
       gap: 30px;
+      padding: 0;
       margin: 0 auto;
     }
     &__item1 {
       width: 100%;
+      height: 720px;
       background-image: url(../images/Products/products-icecream_desktop@1x.png),
         url(../images/Products/Rectangle_icecrem.png);
       @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         background-image: url(../images/Products/products-icecream_desktop@2x.png),
           url(../images/Products/Rectangle_icecrem.png);
-        background-size: 230px, 290px 485px;
-        background-position: center 0, CENTER 103px;
       }
+      background-size: 335px, 300px 525px;
+      background-position: center 0, CENTER 150px;
     }
     &__item2 {
       width: 100%;
+      height: 720px;
       background-image: url(../images/Products/products-coffee_desktop@1x.png),
         url(../images/Products/Rectangle_coffe.png);
       @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         background-image: url(../images/Products/products-coffee_desktop@2x.png),
           url(../images/Products/Rectangle_coffe.png);
-        background-size: 230px, 290px 485px;
-        background-position: center 0, CENTER 103px;
       }
+      background-size: 335px, 300px 525px;
+      background-position: center 0, CENTER 150px;
     }
     &__item3 {
       width: 100%;
+      height: 720px;
       background-image: url(../images/Products/products-milkshake_desktop@1x.png),
         url(../images/Products/Rectangle_milkshake.png);
       @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
         background-image: url(../images/Products/products-milkshake_desktop@2x.png),
           url(../images/Products/Rectangle_milkshake.png);
-        background-size: 230px, 290px 485px;
-        background-position: center 0, CENTER 103px;
       }
+      background-size: 335px, 300px 525px;
+      background-position: center 0, CENTER 150px;
+    }
+    &--dot {
+      padding: 30px 0;
+    }
+    &__text-head {
+      padding-top: 310px;
+    }
+    &__text-body {
+      height: 80px;
+    }
+    &--img {
+      padding: 60px 0;
+      margin: 0 auto;
     }
   }
 }
