@@ -22,12 +22,20 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1, 15rem;
     text-align: center;
     text-transform: uppercase;
     align-content: center;
     color: $pink;
     margin: 0 auto;
+
+    @media (min-width: $tablet) {
+      font-size: 26px;
+    }
+
+    @media (min-width: $desktop) {
+      font-size: 30px;
+    }
   }
   &--offer {
     margin: 0 auto;
@@ -36,11 +44,18 @@
     font-style: normal;
     font-weight: 400;
     font-size: 34px;
-    line-height: 39px;
+    line-height: 1, 15rem;
     text-align: center;
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: $dark-pink;
+
+    @media (min-width: $tablet) {
+      font-size: 48px;
+    }
+    @media (min-width: $desktop) {
+      font-size: 58px;
+    }
   }
 
   &__item1 {
