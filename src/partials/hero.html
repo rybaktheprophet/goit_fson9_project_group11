@@ -1,5 +1,5 @@
 <section class="section section--pink">
-  <div class="container container--pink-header">
+  <div class="container-hero container-hero--pink-header">
     <div class="hero">
       <div class="hero__header">
         <h1 class="hero__title">
@@ -7,13 +7,11 @@
         </h1>
         <a href="#products" class="hero__link" target="_self">Products</a>
         <a href="#about" class="hero__link hero__link--white" target="_self">How it’s made?</a>
-        <!-- <button class="hero__button" type="button">Products</button>
-        <button class="hero__button hero__button--white" type="button">How it’s made?</button> -->
       </div>
       <div class="hero__footer">
         <img
           class="hero__img"
-          src="./images/Hero/hero-milk_tablet@1x.png"
+          src="./images/Hero/hero-milk_tablet@1x.webp"
           alt="Bottle of milk"
           srcset="
             ./images/Hero/hero-milk_tablet@1x.webp  124w,
@@ -32,7 +30,7 @@
     <div class="hero-foto">
       <img
         class="hero-foto__img"
-        src="./images/Hero/hero-icecream_mobile@1x.png"
+        src="./images/Hero/hero-icecream_mobile@1x.webp"
         alt="Icecream photo"
         srcset="
           ./images/Hero/hero-icecream_mobile@1x.webp  171w,
@@ -46,7 +44,7 @@
       />
       <img
         class="hero-foto__img hero-foto__img--background"
-        src="./images/Hero/hero-ellipse_mobile@1x.png"
+        src="./images/Hero/hero-ellipse_mobile@1x.webp"
         alt="Circle in the background"
         srcset="
           ./images/Hero/hero-ellipse_mobile@1x.webp   284w,
@@ -62,26 +60,28 @@
     <div class="hero-aside">
       <ul class="hero-aside__list">
         <li class="hero-aside__item">
-          <p class="hero-aside__text">16</p>
-          <p class="hero-aside__text hero-aside__text--small">cafes</p>
+          <span class="hero-aside__text">16</span>
+          <span class="hero-aside__text hero-aside__text--small">cafes</span>
         </li>
         <li class="hero-aside__item hero-aside__item--secondary">
-          <p class="hero-aside__text">23</p>
-          <p class="hero-aside__text hero-aside__text--small">food trucks</p>
+          <span class="hero-aside__text">23</span>
+          <span class="hero-aside__text hero-aside__text--small">food trucks</span>
         </li>
       </ul>
-      <img
-        class="hero-aside__img"
-        src="./images/Hero/ice-cream-girl_tablet@1x.png"
-        alt="Girl with ice cream"
-        srcset="
-          ./images/Hero/ice-cream-girl_tablet@1x.webp  168w,
-          ./images/Hero/ice-cream-girl_tablet@2x.webp  336w,
-          ./images/Hero/ice-cream-girl_desktop@1x.webp 293w,
-          ./images/Hero/ice-cream-girl_desktop@2x.webp 586w
-        "
-        sizes="(min-width: 1280px) 293px, (min-width: 768px) 168px"
-      />
+      <div class="hero-aside__wrapper">
+        <img
+          class="hero-aside__img"
+          src="./images/Hero/ice-cream-girl_tablet@1x.webp"
+          alt="Girl with ice cream"
+          srcset="
+            ./images/Hero/ice-cream-girl_tablet@1x.webp  168w,
+            ./images/Hero/ice-cream-girl_tablet@2x.webp  336w,
+            ./images/Hero/ice-cream-girl_desktop@1x.webp 293w,
+            ./images/Hero/ice-cream-girl_desktop@2x.webp 586w
+          "
+          sizes="(min-width: 1280px) 293px, (min-width: 768px) 168px"
+        />
+      </div>
     </div>
   </div>
 </section>
