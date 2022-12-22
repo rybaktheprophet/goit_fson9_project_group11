@@ -1,0 +1,119 @@
+.advantages {
+    background-color: $background-pink;
+    padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  
+     &__h2 {
+    display: none;   
+    }
+    &__h3 {
+        font-family: $font;
+        font-size:36px;
+        font-weight: 400;
+        color: $dark-pink;
+         display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+
+    @media screen and (min-width: 768px) {
+      font-size: 48px;
+      line-height: 1.15;
+       
+    }
+
+     @media screen and (min-width: 1280px) {
+      font-size: 58px;
+      line-height: 1.14;
+    }
+    }
+
+    &__p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;    
+    font-weight: 700;
+     color:black;
+     max-width: 230px;
+     text-align: center;
+
+      @media screen and (min-width: 768px) {
+      font-size: 14px;
+      line-height: 1.74;
+    }
+    @media screen and (min-width: 1200px) {
+      font-size: 16px;
+      line-height: 1.76;
+    }
+
+ 
+}
+
+    &__grid {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    grid: auto-flow / 1fr;
+    padding: 0;
+
+    @media screen and (min-width: 768px) {
+    grid: auto-flow / 1fr 1fr 1fr; 
+    }
+           
+    }
+    &__grid-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 38px;
+
+        
+     
+    &::before {
+        content: '';
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;    
+    }
+        
+    &:first-child::before {
+        height: 50px;
+        width: 32px;
+        background-image: url("../images/Advantages/icon1@1x.png");
+         
+        @media screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+        background-image: url("../images/Advantages/icon1@2x.png");
+      }
+    }
+
+     &:nth-child(2n)::before {
+        height: 50px;
+        width: 50px;
+       background-image: url("../images/Advantages/icon2@1x.png");
+         @media screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+        background-image: url("../images/Advantages/icon2@2x.png");
+    }
+     }
+     &:nth-child(3n)::before {
+        height: 44px;
+        width: 50px;
+        background-image: url("../images/Advantages/icon3@1x.png");
+          @media screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+       background-image: url("../images/Advantages/icon3@2x.png");
+    }
+
+
+    }
+   
+
+
+ }
+
+
+}
